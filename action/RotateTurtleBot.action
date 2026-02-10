@@ -1,0 +1,13 @@
+# Goal: Rotate the turtlebot to a desired yaw angle
+float64 angular_velocity
+float64 theta
+---
+# Result: Whether the robot reached the desired orientation
+bool success
+float64 final_orientation_z
+float64 final_orientation_w
+---
+# Feedback: Current progress
+float64 current_orientation_z
+float64 current_orientation_w
+float64 orientation_error

@@ -1,0 +1,13 @@
+# Goal: Move the turtlebot a given distance
+float64 linear_velocity
+float64 angular_velocity
+float64 distance
+---
+# Result: Whether the robot reached the destination
+bool success
+float64 distance_traveled
+---
+# Feedback: Current progress
+float64 current_x
+float64 current_y
+float64 distance_remaining
