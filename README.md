@@ -1,4 +1,4 @@
-This is a ROS2 package implementing autonomous navigation for Turtlebot3 (waffle-pi) for gazebo simulation environment.
+This is a ROS2 package implementing autonomous navigation for Turtlebot3 (waffle-pi) in gazebo simulation environment.
 
 Setup turtlebot3 package with gazebo sim and run the command below:
 CMD: ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
